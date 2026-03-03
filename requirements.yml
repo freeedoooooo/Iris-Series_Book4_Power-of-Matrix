@@ -17,8 +17,9 @@ dependencies:
   - pip
   - ipykernel
   - pip:
-      - seaborn>=0.12.0
-      - kaleido>=0.2.1
+      - seaborn==0.12.0
+      - kaleido==0.2.1
 
 # 一键安装命令
-# conda env create -f env-iris.yml
+# conda env remove -n iris
+# conda env create -f requirements.yml
