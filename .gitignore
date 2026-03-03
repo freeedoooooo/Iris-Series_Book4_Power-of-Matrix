@@ -1,0 +1,5 @@
+# 忽略 Jupyter Notebook 的检查点目录
+.ipynb_checkpoints/
+
+# 或者更通用的写法（防止目录名略有不同）
+*/.ipynb_checkpoints/

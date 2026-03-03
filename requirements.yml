@@ -1,0 +1,24 @@
+# 准备 env.yml 中的配置
+name: iris
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - python=3.12.7
+  - jupyterlab=4.0
+  - numpy=1.26.4
+  - matplotlib=3.8.0
+  - plotly=5.18.0
+  - pandas=1.5.3
+  - scipy=1.11.4
+  - scikit-learn=1.3.0
+  - streamlit=1.29.0
+  - statsmodels=0.14.0
+  - pip
+  - ipykernel
+  - pip:
+      - seaborn>=0.12.0
+      - kaleido>=0.2.1
+
+# 一键安装命令
+# conda env create -f env-iris.yml
