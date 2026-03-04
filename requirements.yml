@@ -1,4 +1,4 @@
-# 准备 env.yml 中的配置
+# 准备 requirements.yml 中的配置
 name: iris
 channels:
   - conda-forge
